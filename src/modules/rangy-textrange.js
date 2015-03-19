@@ -265,7 +265,7 @@ rangy.createModule("TextRange", ["WrappedSelection"], function(api, module) {
 
     // Create cachable versions of DOM functions
 
-    // Test for old IE's incorrect display properties
+    // Test for old IE's incorrect display properties (IE <= 7)
     var tableCssDisplayBlock;
     (function() {
         var table = document.createElement("table");
